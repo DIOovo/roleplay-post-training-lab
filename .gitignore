@@ -1,0 +1,27 @@
+# Python environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# JetBrains IDE
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Environment variables
+.env
+.env.*
+
+# Training outputs
+*.pt
+*.pth
+*.ckpt
+*.log
+**/outputs/checkpoints/
+**/outputs/logs/
